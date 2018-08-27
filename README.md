@@ -18,3 +18,5 @@ npm start
 You should now be able to navigate to localhost:3000 in your browser to see the UI interface. Choose a small picture file to upload with the "Choose File" button, and then click the "Send it" button. You will be prompted to sign the transaction with Metamask. If you submit, then you will be able to see a transaction receipt by clicking on the corresponding button. The Block Number and Gas Used fields can sometimes take a while to load because of the React state populating.
 
 You can also run truffle test from the ProofOfExistenceDapp directory in order to see the tests corresponding to my smart contract.
+
+An example of how to import an ethPM package can be seen in PoExistence.sol line 4.  

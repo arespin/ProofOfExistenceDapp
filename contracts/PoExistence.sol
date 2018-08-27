@@ -30,6 +30,7 @@ contract PoExistence {
     //@returns return the bytes32 translation of the input string
     function stringToBytes32(string memory source) pure returns (bytes32 result) {
         bytes memory tempEmptyStringTest = bytes(source);
+        require(tempEmptyStringTest.length < 50);
         if (tempEmptyStringTest.length == 0) {
             return 0x0;
         }
